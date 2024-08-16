@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1> Blackjack </h1>
+
+        <div class="container"> 
+            <h2>Dealer</h2>
+            <p> Cards: </p> <p id="dealer-cards"> </p>
+            <p> Sum: </p> <p id="dealer-sum"> </p>
+
+        </div>
+
+        <div class="container">
+
+            <h2 id="message"> </h2>
+            <p> Cards: </p> <p id="cards-el"> </p>
+            <p> Sum: </p> <p id="sum-el"> </p>
+            <p id="player-el"> </p>
+            <p> Pot: </p> <p id="player-chips"> </p>
+            <p> Bet: </p> <p id="player-bet"> </p>
+
+        </div>
+            <button onclick="startGame()"> Start Game </button>
+            <button onclick="newCard()"> New Card </button>
+            <button onclick="bet()"> Bet </button>
+            <button onclick="stand()"> Stand </button>
+    </body>
+    <script src="index.js"></script>
+</html>

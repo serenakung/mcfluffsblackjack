@@ -1,0 +1,46 @@
+body {
+    background-image: url(images/mcfluffblackjacktabletoplogo.png);
+    background-size: 100%;
+    background-repeat: repeat;
+    color: white;
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+    font-family: "Hoefler Text", "Baskerville Old Face", Garamond, "Times New Roman", serif;
+    font-size: 3vh;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 8vh;
+    color: #FFB22C;
+}
+
+h2 {
+    font-size: 4vh;
+    font-style: italic;
+}
+
+button{
+    font-family: "Hoefler Text", "Baskerville Old Face", Garamond, "Times New Roman", serif;
+    font-size: 3vh;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #FFB22C;
+    color: #062d08;
+    font-weight: bold;
+}
+
+
+
+.container {
+    border-width: 2px;
+    border-style: dashed;
+    border-color: white;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
